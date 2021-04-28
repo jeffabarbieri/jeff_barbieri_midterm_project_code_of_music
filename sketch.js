@@ -273,6 +273,7 @@ function mousePressed()
 function keyPressed() {
   //each row of keys on keyboard represents one octave, from c3 (top) to c6 (bottom)
   //console.log(keyCode);
+  Tone.start();
   beat = 0;
   if (keyCode === 49) playRoot(C2);
   
